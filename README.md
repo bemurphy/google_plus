@@ -1,6 +1,8 @@
 Google-Plus
 ===========
 
+You probably really want https://github.com/seejohnrun/google_plus, it's better off at this stage.
+
 A light wrapper around the new Google+ API.  It's late, this is really rough.
 
 Installation

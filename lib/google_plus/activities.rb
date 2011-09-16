@@ -21,7 +21,7 @@ module GooglePlus
 
       def list(user_id)
         items = get_with_key("/people/#{user_id}/activities/public")["items"]
-        items.collect { |item| Activity.new item }
+        items ? items.collect { |item| Activity.new item } : []
       end
     end
   end

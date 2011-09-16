@@ -1,7 +1,7 @@
 Google-Plus
 ===========
 
-A light wrapper around the new Google+ API.
+A light wrapper around the new Google+ API.  It's late, this is really rough.
 
 Installation
 ------------
@@ -20,4 +20,5 @@ TODO
 ----
 
 * Docs
+* Get rid of class var for api key
 * tests (ahem)
